@@ -184,14 +184,14 @@ button:hover, button::after{
 @media (max-width: 600px){
     .profile_head{
         background: #318B8B;
-        width: 80%;
+        width: 90%;
         align-self: center;
         text-align: center;
         border-radius: 20px 20px 0 0;
         padding: 10px;
     }
     .profile_head p{
-        color: #f7eded;
+        font-size: 15px;
     }
     .profile_hero{
         display: grid;
@@ -200,11 +200,11 @@ button:hover, button::after{
         align-items: center;
         background: #fff;
         align-self: center;
-        width: 80%;
-        padding: 0 30px ;
+        width: 90%;
+        padding: 0 15px ;
     }
     h1{
-        font-size: 21px;
+        font-size: 20px;
     }
     .link a{
         margin: 0 10px;
@@ -240,13 +240,14 @@ button:hover, button::after{
         margin: 4px;
     }
     p{
-        margin: 3px;
-        line-height: 1.0;
+        font-size: 13px;
+        margin: 2px;
+        line-height: 1;
     }
     .skills ul li{
         border-radius: 8px;
-        padding: 5px;
-        font-size: 12px;
+        padding: 3px;
+        font-size: 9px;
     }
     .pix img{
         width: 100px;
@@ -256,7 +257,7 @@ button:hover, button::after{
         margin-bottom: 12px;
     }
     ul{
-        gap: 8px;
+        gap: 5px;
         
     }
     button{
