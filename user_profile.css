@@ -182,6 +182,12 @@ button:hover, button::after{
     }
 }
 @media (max-width: 600px){
+    .header{
+        flex-wrap: wrap;
+    }
+    .profile_cont{
+    flex-wrap: wrap;
+    }
     .profile_head{
         background: #318B8B;
         width: 90%;
