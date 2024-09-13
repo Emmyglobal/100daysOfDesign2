@@ -1,0 +1,129 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f5f7;
+}
+
+/* Profile Card */
+.profile-card {
+    width: 400px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.profile-header {
+    background-color: #318b8b;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profile-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-bottom: 15px;
+}
+
+.profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-info h2 {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.profile-btn {
+    background-color: #fff;
+    color: #318b8b;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.profile-btn:hover {
+    background-color: #265f5f;
+    color: #fff;
+}
+
+.profile-details {
+    padding: 20px;
+}
+
+.profile-about,
+.profile-skills,
+.profile-experience {
+    margin-bottom: 20px;
+}
+
+.profile-about h3,
+.profile-skills h3,
+.profile-experience h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #318b8b;
+}
+
+.profile-about p,
+.job p {
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.profile-skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-skills li {
+    background-color: #318b8b;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    margin: 5px;
+}
+
+.job h4 {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.profile-social {
+    text-align: center;
+}
+
+.social-icon {
+    text-decoration: none;
+    color: #318b8b;
+    font-weight: bold;
+    margin: 0 10px;
+    font-size: 14px;
+}

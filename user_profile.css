@@ -185,9 +185,6 @@ button:hover, button::after{
     .header{
         flex-wrap: wrap;
     }
-    .profile_cont{
-    flex-wrap: wrap;
-    }
     .profile_head{
         background: #318B8B;
         width: 90%;
@@ -201,6 +198,7 @@ button:hover, button::after{
     }
     .profile_hero{
         display: grid;
+        flex-wrap: wrap;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr 3fr 1fr;
         align-items: center;
